@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download — ClipFlex 360°</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #d4c5a0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(26, 42, 31, 0.15);
+            max-width: 700px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #1a2a1f;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        h1 span {
+            color: #b8953a;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #8a7a6a;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #1a2a1f;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #b8953a;
+            padding-bottom: 8px;
+        }
+
+        .section h2 span {
+            color: #b8953a;
+        }
+
+        .file-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f5f0e6;
+            padding: 12px 18px;
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+
+        .file-item:hover {
+            background: #d4c5a0;
+            transform: translateX(5px);
+        }
+
+        .file-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .file-icon {
+            font-size: 1.5rem;
+        }
+
+        .file-name {
+            font-weight: 500;
+            color: #1a2a1f;
+        }
+
+        .file-size {
+            color: #8a7a6a;
+            font-size: 0.85rem;
+        }
+
+        .btn-download {
+            background: #1a2a1f;
+            color: #d4c5a0;
+            padding: 8px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid #1a2a1f;
+        }
+
+        .btn-download:hover {
+            background: #b8953a;
+            border-color: #b8953a;
+            color: #1a2a1f;
+            transform: scale(1.05);
+        }
+
+        .btn-back {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            color: #1a2a1f;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 12px;
+            border-radius: 50px;
+            border: 2px solid #1a2a1f;
+            transition: all 0.3s;
+        }
+
+        .btn-back:hover {
+            background: #1a2a1f;
+            color: #d4c5a0;
+            text-decoration: none;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #b8953a;
+            color: #1a2a1f;
+            padding: 2px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            margin-left: 8px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📥 Arquivos para <span>Download</span></h1>
+        <p class="subtitle">ClipFlex 360° — FNTT Grow</p>
+
+        <!-- SEÇÃO CLIPFLEX -->
+        <div class="section">
+            <h2>🔩 ClipFlex <span>360°</span></h2>
+            <div class="file-list">
+                <div class="file-item">
+                    <div class="file-info">
+                        <span class="file-icon">🖨️</span>
+                        <div>
+                            <div class="file-name">Corpo 1</div>
+                            <div class="file-size">323 KB</div>
+                        </div>
+                    </div>
+                    <a href="../produto/stl/clipflex/v7crip360_360crip3_v7_Componente1_1_Corpo1.stl" class="btn-download" download>⬇️ Download</a>
+                </div>
+                <div class="file-item">
+                    <div class="file-info">
+                        <span class="file-icon">🖨️</span>
+                        <div>
+                            <div class="file-name">Corpo 2</div>
+                            <div class="file-size">1.215 KB</div>
+                        </div>
+                    </div>
+                    <a href="../produto/stl/clipflex/v7crip360_360crip3_v7_Componente1_2_Corpo2.stl" class="btn-download" download>⬇️ Download</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEÇÃO ASTRONALTA -->
+        <div class="section">
+            <h2>🚀 Astronalta <span class="badge">Personagem FNTT</span></h2>
+            <div class="file-list">
+                <div class="file-item">
+                    <div class="file-info">
+                        <span class="file-icon">🧑‍🚀</span>
+                        <div>
+                            <div class="file-name">Astronalta 1</div>
+                            <div class="file-size">97.502 KB</div>
+                        </div>
+                    </div>
+                    <a href="../produto/stl/astronalta/astronalta1.stl" class="btn-download" download>⬇️ Download</a>
+                </div>
+                <div class="file-item">
+                    <div class="file-info">
+                        <span class="file-icon">🧑‍🚀</span>
+                        <div>
+                            <div class="file-name">Astronalta 2</div>
+                            <div class="file-size">93.733 KB</div>
+                        </div>
+                    </div>
+                    <a href="../produto/stl/astronalta/astronalta2.stl" class="btn-download" download>⬇️ Download</a>
+                </div>
+                <div class="file-item">
+                    <div class="file-info">
+                        <span class="file-icon">📦</span>
+                        <div>
+                            <div class="file-name">Astronalta 3</div>
+                            <div class="file-size">27.664 KB</div>
+                            <div style="font-size: 0.75rem; color: #8a7a6a;">Formato 3MF</div>
+                        </div>
+                    </div>
+                    <a href="../produto/stl/astronalta/astronalta3.3mf" class="btn-download" download>⬇️ Download</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn-back">← Voltar para o site</a>
+    </div>
+</body>
+</html>

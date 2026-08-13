@@ -1,0 +1,19 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Arquivos grandes (se tiver)
+*.zip
+*.rar
+*.7z
