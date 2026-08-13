@@ -2,7 +2,7 @@
 
 **O acessório que devolve o controle do crescimento para você.**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/seuusuario/clipflex360)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/rfanett/clipflex360)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
@@ -47,8 +47,8 @@ O ClipFlex 360° é um acessório de treinamento vegetal desenvolvido para **dir
 
 ## 🔗 Links úteis
 
-- [Site oficial do produto](https://seuusuario.github.io/clipflex360)
-- [Baixar STL](site/download.html)
+- [Site oficial do produto](https://rfanett.github.io/clipflex360/)
+- [Baixar STL](download.html)
 - [Instruções de uso](produto/documentos/instrucoes.md)
 
 ---
@@ -58,8 +58,8 @@ O ClipFlex 360° é um acessório de treinamento vegetal desenvolvido para **dir
 O Astronalta é o mascote da FNTT Grow. 
 Disponível para impressão 3D em 3 versões:
 
-- [Astronalta 1](produto/stl/astronalta/astronalta1.stl)
-- [Astronalta 2](produto/stl/astronalta/astronalta2.stl)
+- [Astronalta 1](https://drive.google.com/uc?export=download&id=1aPoxVaWqQhqR50-7E5ECvITj20imoBJO)
+- [Astronalta 2](https://drive.google.com/uc?export=download&id=1HS0R9TxpQGm8a4Djx2cUYZqdlfwnnUlX)
 - [Astronalta 3](produto/stl/astronalta/astronalta3.3mf)
 
 ---
