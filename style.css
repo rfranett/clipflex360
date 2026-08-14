@@ -45,7 +45,7 @@ header {
 }
 
 .logo-img {
-    height: 130px;      /* Altura do logo - ajuste conforme necessário */
+    height: 150px;      /* Altura do logo - ajuste conforme necessário */
     width: auto;
     display: block;
     object-fit: contain;
@@ -118,7 +118,7 @@ header {
 
 .description {
     font-size: 1.1rem;
-    color: #5a4a3a;
+    color: #d69f69;
     margin-bottom: 30px;
 }
 
@@ -195,7 +195,7 @@ background: #b8953a;
 }
 
 .gallery-subtitle {
-    color: #8a7a6a;
+    color: #c09870;
     margin-bottom: 25px;
     font-size: 0.95rem;
 }
