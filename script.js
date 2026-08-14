@@ -1,58 +1,78 @@
-// ClipFlex 360° — FNTT Grow
-// script.js
+// =========================================================
+// CLIPFLEX 360° — FNTT GROW
+// SCRIPT.JS
+// =========================================================
 
-document.addEventListener('DOMContentLoaded', function () {
-    console.log('🌱 ClipFlex 360° — FNTT Grow');
-    console.log('📌 Versão: 1.0.0');
-    console.log('📦 Conteúdo da caixa: 5 peças + 1 adesivo');
+document.addEventListener("DOMContentLoaded", () => {
 
-    // ===============================
-    // Efeito de hover nos itens da galeria
-    // ===============================
-    const galleryItems = document.querySelectorAll('.gallery-item');
+    console.log("🌱 ClipFlex 360° — FNTT Grow");
+    console.log("📦 Kit: 5 unidades");
+    console.log("🔧 Produto: já montado");
+    console.log("💰 Preço sugerido: R$ 21,90");
+    console.log("🖨️ STL: acesso através do QR Code da embalagem");
 
-    galleryItems.forEach(item => {
-        item.addEventListener('mouseenter', function () {
-            this.style.transform = 'translateY(-6px) scale(1.03)';
-            this.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+
+    // =====================================================
+    // GALERIA
+    // =====================================================
+
+    const galleryItems =
+        document.querySelectorAll(".gallery-item");
+
+
+    galleryItems.forEach((item) => {
+
+        item.addEventListener("mouseenter", () => {
+
+            item.style.transform =
+                "translateY(-5px) scale(1.02)";
+
         });
 
-        item.addEventListener('mouseleave', function () {
-            this.style.transform = 'translateY(0) scale(1)';
+
+        item.addEventListener("mouseleave", () => {
+
+            item.style.transform =
+                "translateY(0) scale(1)";
+
         });
+
     });
 
-    // ===============================
-    // Efeito de hover nos cards de features
-    // ===============================
-    const features = document.querySelectorAll('.feature');
 
-    features.forEach(feature => {
-        feature.addEventListener('mouseenter', function () {
-            this.style.transform = 'translateY(-6px)';
+    // =====================================================
+    // BOTÕES
+    // =====================================================
+
+    const buttons =
+        document.querySelectorAll(
+            ".btn-secondary, .btn-support"
+        );
+
+
+    buttons.forEach((button) => {
+
+        button.addEventListener("mousedown", () => {
+
+            button.style.transform =
+                "scale(0.97)";
+
         });
 
-        feature.addEventListener('mouseleave', function () {
-            this.style.transform = 'translateY(0)';
+
+        button.addEventListener("mouseup", () => {
+
+            button.style.transform = "";
+
         });
+
+
+        button.addEventListener("mouseleave", () => {
+
+            button.style.transform = "";
+
+        });
+
     });
 
-    // ===============================
-    // Animação suave nos botões (opcional)
-    // ===============================
-    const buttons = document.querySelectorAll('.btn-primary, .btn-secondary, .btn-support, .btn-download');
-
-    buttons.forEach(btn => {
-        btn.addEventListener('mousedown', function () {
-            this.style.transform = 'scale(0.97)';
-        });
-
-        btn.addEventListener('mouseup', function () {
-            this.style.transform = '';
-        });
-
-        btn.addEventListener('mouseleave', function () {
-            this.style.transform = '';
-        });
-    });
 });
